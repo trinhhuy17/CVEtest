@@ -2,28 +2,50 @@ import pandas as pd
 import os
 import sys
 
-# Đọc file CSV đầu vào từ dòng lệnh
+# Lấy tên file CSV từ dòng lệnh
 input_file = sys.argv[1]
-print(f"👉 Đang xử lý: {input_file}")
+print(f"👉 Đang xử lý file: {input_file}")
 
-# Tạo thư mục kết quả
+# Tạo thư mục output nếu chưa có
 output_dir = "filtered"
 os.makedirs(output_dir, exist_ok=True)
 
 # Đọc dữ liệu
 df = pd.read_csv(input_file)
 
-# Trích năm từ CVE ID
-df['Year'] = df['CVE'].str.extract(r'CVE-(\d{4})-')
+# Xác định cột chuẩn cần có
+expected_columns = [
+    "CVE", "Title", "Server", "Severity",
+    "BaseScore", "TemporalScore", "KB",
+    "FixedBuild", "RestartRequired", "Year"
+]
 
-# Danh sách năm và severity cần xử lý
+# Kiểm tra thiếu cột
+missing_cols = [col for col in expected_columns if col not in df.columns]
+if missing_cols:
+    raise ValueError(f"⛔ File thiếu các cột sau: {missing_cols}")
+
+# Trích năm từ CVE nếu cột Year bị rỗng
+if df["Year"].isnull().all():
+    df["Year"] = df["CVE"].str.extract(r"CVE-(\d{4})")
+
+# Lọc theo năm & mức độ
 target_years = ['2016', '2019', '2022']
 severities = ['High', 'Critical']
 
-# Ghi file cho mỗi tổ hợp
 for year in target_years:
     for severity in severities:
-        subset = df[(df['Year'] == year) & (df['Severity'] == severity)]
+        subset = df[
+            (df["Year"].astype(str) == year) &
+            (df["Severity"] == severity)
+        ]
+
+        # Ghi đúng thứ tự cột
+        subset = subset[expected_columns]
+
         out_file = f"{output_dir}/cve_{severity.lower()}_{year}.csv"
-        subset.to_csv(out_file, index=False)
-        print(f"✅ {out_file} ({len(subset)} dòng)")
+        if not subset.empty:
+            subset.to_csv(out_file, index=False)
+            print(f"✅ Ghi {out_file} ({len(subset)} dòng)")
+        else:
+            print(f"⚠️ Không có dữ liệu cho {severity} - {year}")
