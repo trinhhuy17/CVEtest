@@ -1,0 +1,120 @@
+﻿CVE,Title,Server,Severity,BaseScore,TemporalScore,KB,FixedBuild,RestartRequired
+CVE-2025-33064,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2016,Important,8.8,7.7,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33066,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2016,Important,8.8,7.7,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33053,Web Distributed Authoring and Versioning (WEBDAV) Remote Code Execution Vulnerability,Windows Server 2016,Important,8.8,8.2,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33073,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2016,Important,8.8,7.9,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33067,Windows Task Scheduler Elevation of Privilege Vulnerability,Windows Server 2016,Important,8.4,7.3,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32712,Win32k Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32713,Windows Common Log File System Driver Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32714,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32716,Windows Media Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32718,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33075,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-47955,Windows Remote Access Connection Manager Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.8,6.8,KB5058383,10.0.14393.8066,Yes
+CVE-2025-32724,Local Security Authority Subsystem Service (LSASS) Denial of Service Vulnerability,Windows Server 2016,Important,7.5,6.5,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32725,DHCP Server Service Denial of Service Vulnerability,Windows Server 2016,Important,7.5,6.5,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33050,DHCP Server Service Denial of Service Vulnerability,Windows Server 2016,Important,7.5,6.5,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33056,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2016,Important,7.5,6.5,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33068,Windows Standards-Based Storage Management Service Denial of Service Vulnerability,Windows Server 2016,Important,7.5,6.5,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32721,Windows Recovery Driver Elevation of Privilege Vulnerability,Windows Server 2016,Important,7.3,6.4,KB5061010,10.0.14393.8148,Yes
+CVE-2025-3052,Cert CC: CVE-2025-3052 InsydeH2O Secure Boot Bypass,Windows Server 2016,Important,6.7,5.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32715,Remote Desktop Protocol Client Information Disclosure Vulnerability,Windows Server 2016,Important,6.5,5.7,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33057,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2016,Important,6.5,5.7,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32719,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32720,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32722,Windows Storage Port Driver Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33058,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33059,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33060,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33061,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33062,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-24068,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-24069,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-24065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33055,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2016,Important,5.5,4.8,KB5061010,10.0.14393.8148,Yes
+CVE-2025-47160,Windows Shortcut Files Security Feature Bypass Vulnerability,Windows Server 2016,Important,5.4,4.7,KB5061010,10.0.14393.8148,Yes
+CVE-2025-32710,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2016,Critical,8.1,7.1,KB5058383,10.0.14393.8066,Yes
+CVE-2025-33071,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2016,Critical,8.1,7.1,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33070,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2016,Critical,8.1,7.1,KB5061010,10.0.14393.8148,Yes
+CVE-2025-33064,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2019,Important,8.8,7.7,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33066,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2019,Important,8.8,7.7,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33053,Web Distributed Authoring and Versioning (WEBDAV) Remote Code Execution Vulnerability,Windows Server 2019,Important,8.8,8.2,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33073,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2019,Important,8.8,7.9,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33067,Windows Task Scheduler Elevation of Privilege Vulnerability,Windows Server 2019,Important,8.4,7.3,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32712,Win32k Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32713,Windows Common Log File System Driver Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32714,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32716,Windows Media Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32718,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33075,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-47955,Windows Remote Access Connection Manager Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.8,6.8,KB5058392,10.0.17763.7314,Yes
+CVE-2025-32724,Local Security Authority Subsystem Service (LSASS) Denial of Service Vulnerability,Windows Server 2019,Important,7.5,6.5,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32725,DHCP Server Service Denial of Service Vulnerability,Windows Server 2019,Important,7.5,6.5,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33050,DHCP Server Service Denial of Service Vulnerability,Windows Server 2019,Important,7.5,6.5,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33056,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2019,Important,7.5,6.5,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33068,Windows Standards-Based Storage Management Service Denial of Service Vulnerability,Windows Server 2019,Important,7.5,6.5,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32721,Windows Recovery Driver Elevation of Privilege Vulnerability,Windows Server 2019,Important,7.3,6.4,KB5060531,10.0.17763.7434,Yes
+CVE-2025-3052,Cert CC: CVE-2025-3052 InsydeH2O Secure Boot Bypass,Windows Server 2019,Important,6.7,5.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32715,Remote Desktop Protocol Client Information Disclosure Vulnerability,Windows Server 2019,Important,6.5,5.7,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33057,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2019,Important,6.5,5.7,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32719,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32720,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32722,Windows Storage Port Driver Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33058,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33059,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33060,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33061,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33062,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33063,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-24068,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-24069,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-24065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33052,Windows DWM Core Library Information Disclosure  Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33055,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2019,Important,5.5,4.8,KB5060531,10.0.17763.7434,Yes
+CVE-2025-47160,Windows Shortcut Files Security Feature Bypass Vulnerability,Windows Server 2019,Important,5.4,4.7,KB5060531,10.0.17763.7434,Yes
+CVE-2025-32710,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2019,Critical,8.1,7.1,KB5058392,10.0.17763.7314,Yes
+CVE-2025-33071,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2019,Critical,8.1,7.1,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33070,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2019,Critical,8.1,7.1,KB5060531,10.0.17763.7434,Yes
+CVE-2025-33064,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2022,Important,8.8,7.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33066,Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability,Windows Server 2022,Important,8.8,7.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33053,Web Distributed Authoring and Versioning (WEBDAV) Remote Code Execution Vulnerability,Windows Server 2022,Important,8.8,8.2,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33073,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2022,Important,8.8,7.9,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33067,Windows Task Scheduler Elevation of Privilege Vulnerability,Windows Server 2022,Important,8.4,7.3,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32712,Win32k Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32713,Windows Common Log File System Driver Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32714,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32716,Windows Media Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32718,Windows SMB Client Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33075,Windows Installer Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-47955,Windows Remote Access Connection Manager Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.8,6.8,"KB5058385, KB5058500",10.0.20348.3630,Yes
+CVE-2025-32724,Local Security Authority Subsystem Service (LSASS) Denial of Service Vulnerability,Windows Server 2022,Important,7.5,6.5,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32725,DHCP Server Service Denial of Service Vulnerability,Windows Server 2022,Important,7.5,6.5,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33050,DHCP Server Service Denial of Service Vulnerability,Windows Server 2022,Important,7.5,6.5,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33056,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2022,Important,7.5,6.5,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33068,Windows Standards-Based Storage Management Service Denial of Service Vulnerability,Windows Server 2022,Important,7.5,6.5,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32721,Windows Recovery Driver Elevation of Privilege Vulnerability,Windows Server 2022,Important,7.3,6.4,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-3052,Cert CC: CVE-2025-3052 InsydeH2O Secure Boot Bypass,Windows Server 2022,Important,6.7,5.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32715,Remote Desktop Protocol Client Information Disclosure Vulnerability,Windows Server 2022,Important,6.5,5.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33057,Windows Local Security Authority (LSA) Denial of Service Vulnerability,Windows Server 2022,Important,6.5,5.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32719,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32720,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32722,Windows Storage Port Driver Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33058,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33059,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33060,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33061,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33062,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33063,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-24068,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-24069,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-24065,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33052,Windows DWM Core Library Information Disclosure  Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33055,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-47160,Windows Shortcut Files Security Feature Bypass Vulnerability,Windows Server 2022,Important,5.4,4.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-29828,Windows Schannel Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-32710,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5058385, KB5058500",10.0.20348.3630,Yes
+CVE-2025-33071,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-33070,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
