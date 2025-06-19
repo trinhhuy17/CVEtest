@@ -1,0 +1,49 @@
+name: Tự động lọc CVE theo năm và độ nghiêm trọng
+
+on:
+  push:
+    paths:
+      - 'cve_q*.csv'
+
+jobs:
+  filter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone mã nguồn
+        uses: actions/checkout@v3
+
+      - name: Cài Python và pandas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          pip install pandas
+
+      - name: Tìm file CSV mới nhất
+        id: detect
+        run: |
+          FILE=$(ls -t cve_q*.csv | head -n1)
+          echo "csv_file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Chạy script lọc
+        run: python3 filter_cve.py ${{ steps.detect.outputs.csv_file }}
+
+      - name: Commit file kết quả
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+          
+          # Đảm bảo lấy đúng branch gốc và tránh conflict
+          git fetch origin
+          git checkout master
+          git pull --rebase origin master
+          
+          # Thêm và commit kết quả
+          git add filtered/*.csv
+          git commit -m "Tự động chia theo năm & mức độ" || echo "Không có gì để commit"
+          
+          # Đẩy về lại GitHub
+          git push origin master
