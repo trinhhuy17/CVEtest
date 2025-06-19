@@ -114,7 +114,7 @@ CVE-2025-24065,Windows Storage Management Provider Information Disclosure Vulner
 CVE-2025-33052,Windows DWM Core Library Information Disclosure  Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
 CVE-2025-33055,Windows Storage Management Provider Information Disclosure Vulnerability,Windows Server 2022,Important,5.5,4.8,"KB5060526, KB5060525",10.0.20348.3745,Yes
 CVE-2025-47160,Windows Shortcut Files Security Feature Bypass Vulnerability,Windows Server 2022,Important,5.4,4.7,"KB5060526, KB5060525",10.0.20348.3745,Yes
-CVE-2025-29828,Windows Schannel Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
-CVE-2025-32710,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5058385, KB5058500",10.0.20348.3630,Yes
-CVE-2025-33071,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
-CVE-2025-33070,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2022,Critical,8.1,7.1,"KB5060526, KB5060525",10.0.20348.3745,Yes
+CVE-2025-2982812312,Windows Schannel Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,,10.0.20348.3745,Yes
+CVE-2025-327104565,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,,10.0.20348.3630,Yes
+CVE-2025-330717686,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,,10.0.20348.3745,Yes
+CVE-2025-3307043656,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2022,Critical,8.1,7.1,,10.0.20348.3745,Yes
