@@ -36,16 +36,12 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
 
-          # 🟢 Stage các file trước khi pull (tránh lỗi unstaged changes)
+           
           git add filtered/*.csv
+          git commit -m "Tự động chia theo Server & Severity" || echo "Không có gì để commit"
 
-          # 🟢 Bây giờ mới pull rebase sau khi đã add
           git fetch origin
           git checkout master
           git pull --rebase origin master
 
-          # 🟢 Commit nếu có thay đổi
-          git commit -m "Tự động chia theo năm & mức độ" || echo "Không có gì để commit"
-
-          # 🟢 Push về GitHub
           git push origin master
