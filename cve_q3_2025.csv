@@ -117,4 +117,4 @@ CVE-2025-47160,Windows Shortcut Files Security Feature Bypass Vulnerability,Wind
 CVE-2025-2982812312,Windows Schannel Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,g324,10.0.20348.3745,Yes
 CVE-2025-327104565,Windows Remote Desktop Services Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,kg32,10.0.20348.3630,Yes
 CVE-2025-330717686,Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability,Windows Server 2022,Critical,8.1,7.1,g324,10.0.20348.3745,Yes
-CVE-2025-3307043656,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2022,Critical,8.1,7.1,g234,10.0.20348.3745,Yes
+CVE-2025-3307043656,Windows Netlogon Elevation of Privilege Vulnerability,Windows Server 2022,Critical,8.1,7.1,g2342,10.0.20348.3745,Yes
